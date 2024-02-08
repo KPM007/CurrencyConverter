@@ -25,7 +25,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     static private final Float CONVERSION_RATE = 0.80F;
-    static final String TAG = "MainA&tivity";
+    static final String TAG = "MainActivity";
 
 
     @Override
