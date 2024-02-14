@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Log.i(TAG, "Enter onCreate)");
+        Log.i(TAG, "Enter onCreate Function)");
 
         Button buttonConvert = findViewById(R.id.convertButton);
 
         buttonConvert.setOnClickListener( view ->  {
             convertCurrency(view);
         } );
-        Log.i(TAG,"onCreate() method finished");
+        Log.i(TAG,"onCreate()  method finished");
     }
 
     public void convertCurrency(View view) {
